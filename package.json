@@ -1,0 +1,17 @@
+{
+  "name": "sudoku",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sgao103/sudoku.git"
+  },
+  "scripts": {
+    "start": "node src/server/server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "morgan": "^1.8.1",
+    "socket.io": "^1.7.3"
+  }
+}
